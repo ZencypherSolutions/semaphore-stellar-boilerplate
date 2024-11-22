@@ -33,6 +33,4 @@ Please check all the boxes that apply to this PR.
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
 
-## 🔜 Next Steps
-Indicate actions or improvements to be taken after this PR, if applicable.
 
