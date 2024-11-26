@@ -1,41 +1,120 @@
-# Code of Conduct
+# Contributing to Semaphore Boilerplate
 
-## Our Pledge
+Thank you for considering contributing to the Semaphore Boilerplate project! This guide will help you contribute effectively.
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
-We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+## Getting Started
 
-## Our Standards
+### Creating an Issue
 
-#### Examples of behavior that contributes to a positive environment:
+1. First check existing issues to avoid duplicates
+2. When creating a new issue, use appropriate prefixes:
 
-- Using welcoming and inclusive language
-- Respecting differing viewpoints and experiences
-- Accepting constructive criticism gracefully
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+- `docs`: for documentation changes
+- `feature`: for new features
+- `fix`: for bug fixes
+- `research`: for research-related content
 
-#### Examples of unacceptable behavior:
+#### Example titles:
 
-- Use of sexualized language or imagery, and sexual attention or advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information without explicit permission
-- Other conduct which could reasonably be considered inappropriate
+- `docs: update installation guide`
+- `feature: add new boilerplate template`
 
-## Enforcement
+### Issue Applications
 
-Project maintainers are responsible for clarifying and enforcing standards of acceptable behavior. They have the right and responsibility to remove, edit, or reject comments, commits, code, issues, and other contributions that are not aligned with this Code of Conduct.
+When applying to work on an issue:
 
-### Scope
+- Explain your relevant background
+- Outline your approach to solving the issue
+- Provide a time estimate for completion
 
-This Code of Conduct applies within all community spaces and when an individual represents the community in public spaces.
+## Development Process
 
-### Enforcement Guidelines
+### Repository Setup
 
-Project maintainers can follow these guidelines in enforcing the Code of Conduct:
+1. Fork the repository
+2. Clone your fork:
 
-1. Correction: Private, written warning, with clear explanation of the violation
-2. Warning: Public warning with incident documentation
-3. Temporary Ban: Temporary ban from any interaction or public communication
-4. Permanent Ban: Permanent ban from any interaction or public communication
+```bash
+git clone https://github.com/your-username/semaphore-boilerplate.git
+cd semaphore-boilerplate
+```
+
+### Branch Naming
+
+Create branches using these prefixes:
+
+- `docs`: Documentation changes
+- `feature`: New features
+- `fix`: Bug fixes
+- `research`: Research-related content
+
+#### Example:
+
+```bash
+git checkout -b docs-installation-guide
+```
+
+### Commit Guidelines
+
+Follow the conventional Commits specification:
+
+```bash
+git commit -m "type(scope): description"
+```
+
+#### Types:
+
+- `docs`: Documentation changes
+- `feat`: New features
+- `fix`: Bug fixes
+- `refactor`: Code improvements
+- `test`: Test-related changes
+
+#### Examples:
+
+```bash
+git commit -m "docs: update README with setup instructions"
+git commit -m "feat(templates): add React boilerplate"
+```
+
+## Pull Request Process
+
+1. Push changes to your fork:
+
+```bash
+git push origin <branch-name>
+```
+
+2. Create a PR with:
+
+- Clear title following commit conventions
+- Detailed description of changes
+- Reference to related issues
+
+3. Wait for review from maintainers
+
+## Best Practices
+
+- Ensure documentation is clear and error-free
+- Maintain consistent formatting
+- Verify all links work
+- Add tests for new features
+- Update documentation as needed
+
+## Repository Structure
+
+```
+semaphore-boilerplate/
+├── docs/           # Documentation files
+├── templates/      # Boilerplate templates
+├── tests/          # Test files
+└── research/       # Research-related content
+```
+
+## Getting Help
+
+- Join our [Telegram group](https://t.me/+-9623JNgGjEyNzI5)
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the project's license.
