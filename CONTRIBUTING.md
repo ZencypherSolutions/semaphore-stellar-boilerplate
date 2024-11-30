@@ -56,7 +56,7 @@ git checkout -b docs-installation-guide
 
 ### Commit Guidelines
 
-Follow the conventional Commits specification:
+Follow the conventional [Commits specification](https://github.com/ZencypherSolutions/semaphore-stellar-docs/blob/main/CONTRIBUTING.md#commit-your-changes)
 
 ```bash
 git commit -m "type(scope): description"
