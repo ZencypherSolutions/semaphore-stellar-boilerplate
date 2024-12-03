@@ -6,14 +6,14 @@ import { SemaphoreContextProvider } from "@/context/SemaphoreContext"
 
 export const metadata: Metadata = {
     title: "Semaphore Demo",
-    description: "A zero-knowledge protocol for anonymous signaling on Ethereum.",
+    description: "A zero-knowledge protocol for anonymous signaling on Stellar.",
     icons: { icon: "/icon.svg", apple: "/apple-icon.png" },
     metadataBase: new URL("https://demo.semaphore.pse.dev"),
     openGraph: {
         type: "website",
         url: "https://demo.semaphore.pse.dev",
         title: "Semaphore Demo",
-        description: "A zero-knowledge protocol for anonymous signaling on Ethereum.",
+        description: "A zero-knowledge protocol for anonymous signaling on Stellar",
         siteName: "Semaphore Demo",
         images: [
             {
