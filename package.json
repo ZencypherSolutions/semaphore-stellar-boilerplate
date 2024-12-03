@@ -1,10 +1,10 @@
 {
-    "name": "semaphore-boilerplate",
-    "description": "A simple DApp to use as a starting point for your project.",
+    "name": "semaphore-stellar-boilerplate",
+    "description": "A simple DApp to use as a starting point for your Stellar Semaphore project.",
     "license": "MIT",
-    "repository": "git@github.com:semaphore-protocol/boilerplate.git",
-    "homepage": "https://github.com/semaphore-protocol/boilerplate",
-    "bugs": "https://github.com/semaphore-protocol/boilerplate/issues",
+    "repository": "git@github.com:ZencypherSolutions/semaphore-stellar-boilerplate.git",
+    "homepage": "https://github.com/ZencypherSolutions/semaphore-stellar-boilerplate",
+    "bugs": "https://github.com/ZencypherSolutions/semaphore-stellar-boilerplate/issues",
     "private": true,
     "scripts": {
         "dev": "yarn workspaces foreach -A -pi run dev",
